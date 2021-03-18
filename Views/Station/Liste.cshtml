@@ -1,0 +1,10 @@
+﻿@model List<BikeStation>
+
+<h1>Liste des stations</h1>
+
+<ul>
+    @foreach (var station in Model)
+    {
+        <li>@station.Name</li>
+    }
+</ul>
